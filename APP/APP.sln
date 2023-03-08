@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{FB06D7F1-625A-4574-93FB-6E04E3966FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Test", "Fibonacci.Test\Fibonacci.Test.csproj", "{3D2DBC4F-F989-4A1A-AB24-7DD81471A5B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalConverter", "UniversalConverter\UniversalConverter.csproj", "{26C7AC88-74B7-4EE6-BDC0-D69182EDDADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalConverter.Test", "UniversalConverter.Test\UniversalConverter.Test.csproj", "{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB06D7F1-625A-4574-93FB-6E04E3966FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB06D7F1-625A-4574-93FB-6E04E3966FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB06D7F1-625A-4574-93FB-6E04E3966FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB06D7F1-625A-4574-93FB-6E04E3966FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2DBC4F-F989-4A1A-AB24-7DD81471A5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2DBC4F-F989-4A1A-AB24-7DD81471A5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2DBC4F-F989-4A1A-AB24-7DD81471A5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2DBC4F-F989-4A1A-AB24-7DD81471A5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C7AC88-74B7-4EE6-BDC0-D69182EDDADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C7AC88-74B7-4EE6-BDC0-D69182EDDADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C7AC88-74B7-4EE6-BDC0-D69182EDDADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C7AC88-74B7-4EE6-BDC0-D69182EDDADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADE61C7B-4E85-4D86-B272-8F035FCBE719}
+	EndGlobalSection
+EndGlobal
