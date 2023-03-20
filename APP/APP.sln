@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{FB06D7F1-625A-4574-93FB-6E04E3966FFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{FB06D7F1-625A-4574-93FB-6E04E3966FFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci.Test", "Fibonacci.Test\Fibonacci.Test.csproj", "{3D2DBC4F-F989-4A1A-AB24-7DD81471A5B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci.Test", "Fibonacci.Test\Fibonacci.Test.csproj", "{3D2DBC4F-F989-4A1A-AB24-7DD81471A5B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalConverter", "UniversalConverter\UniversalConverter.csproj", "{26C7AC88-74B7-4EE6-BDC0-D69182EDDADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversalConverter", "UniversalConverter\UniversalConverter.csproj", "{26C7AC88-74B7-4EE6-BDC0-D69182EDDADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalConverter.Test", "UniversalConverter.Test\UniversalConverter.Test.csproj", "{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversalConverter.Test", "UniversalConverter.Test\UniversalConverter.Test.csproj", "{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thermostat", "Thermostat\Thermostat.csproj", "{663AB55E-1222-4BA5-98B9-F445EC38EC88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thermostat.Test", "Thermostat.Test\Thermostat.Test.csproj", "{023475C4-71AA-4E59-8520-36EB7E71C5FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algebra.Test", "Algebra.Test\Algebra.Test.csproj", "{4765A540-995F-41A5-B1B2-5BFBB770AA3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculator", "StringCalculator\StringCalculator.csproj", "{DD46603A-0CB4-4144-8C3B-4706D5448F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculator.Test", "StringCalculator.Test\StringCalculator.Test.csproj", "{3410BFD1-FC09-401E-98F7-6FF62E5A5A5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21B29C84-8DCD-4ADD-B5F5-86F1BADF481A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663AB55E-1222-4BA5-98B9-F445EC38EC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663AB55E-1222-4BA5-98B9-F445EC38EC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663AB55E-1222-4BA5-98B9-F445EC38EC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663AB55E-1222-4BA5-98B9-F445EC38EC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023475C4-71AA-4E59-8520-36EB7E71C5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023475C4-71AA-4E59-8520-36EB7E71C5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023475C4-71AA-4E59-8520-36EB7E71C5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023475C4-71AA-4E59-8520-36EB7E71C5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4765A540-995F-41A5-B1B2-5BFBB770AA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4765A540-995F-41A5-B1B2-5BFBB770AA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4765A540-995F-41A5-B1B2-5BFBB770AA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4765A540-995F-41A5-B1B2-5BFBB770AA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD46603A-0CB4-4144-8C3B-4706D5448F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD46603A-0CB4-4144-8C3B-4706D5448F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD46603A-0CB4-4144-8C3B-4706D5448F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD46603A-0CB4-4144-8C3B-4706D5448F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3410BFD1-FC09-401E-98F7-6FF62E5A5A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3410BFD1-FC09-401E-98F7-6FF62E5A5A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3410BFD1-FC09-401E-98F7-6FF62E5A5A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3410BFD1-FC09-401E-98F7-6FF62E5A5A5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
