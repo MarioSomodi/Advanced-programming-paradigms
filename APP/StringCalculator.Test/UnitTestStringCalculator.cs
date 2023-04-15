@@ -59,4 +59,16 @@ public class UnitTestStringCalculator
     {
         Assert.AreEqual(30, _stringCalculator.Add("\\;\n5;5;5\n5;5\n5;1001"));
     }
+
+    [TestMethod]
+    public void TestIfStringCalculatorSupportsDelimitersLongerThanOneChar()
+    {
+        Assert.AreEqual(30, _stringCalculator.Add("\\[;;]\n5;;5;;5\n5;;5\n5;;1001"));
+    }
+
+    [TestMethod]
+    public void TestIfStringCalculatorSupportsMultipleDelimitersWhichCanAlsoBeLongerThanOneChar()
+    {
+        Assert.AreEqual(30, _stringCalculator.Add("\\[-][;;][***]\n5;;5***5\n5-5\n5***1001"));
+    }
 }
