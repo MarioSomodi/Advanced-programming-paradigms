@@ -1,2 +1,2 @@
-# Advanced-programming-paradigms
-Programming exercises I had in a subject called "Advanced programming paradigms" at Algebra University College.
+# Advanced programming paradigms
+Learned how to write unit tests, solve advanced problems....
