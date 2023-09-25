@@ -1,10 +1,13 @@
-﻿namespace Fibonacci
+﻿using MeasureRuntimeAttribute;
+
+namespace Fibonacci
 {
     public class FibonacciGenerator
     {
         public FibonacciGenerator()
-        {
-        }
+        {}
+
+        [MeasureRuntime]
         public int GenerateFibonacci(int n)
         {
             if (n <= 1)
